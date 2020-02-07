@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Body from "./Components/Body/Body";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p>
+      <Body/>
     </div>
   );
 }
