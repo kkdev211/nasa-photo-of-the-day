@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: cadetblue;
+  background: linear-gradient(black, white);
+  /* background-image:url("stary-sky.jpg") ; */
 }
 
 .App-logo {
@@ -10,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
