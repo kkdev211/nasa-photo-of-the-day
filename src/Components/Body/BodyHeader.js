@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+// import { Jumbotron, Container} from "reactstrap;"
 
 const BodyHeader = ({title}) => {
     // set up state for the likes
@@ -7,7 +8,14 @@ const BodyHeader = ({title}) => {
     console.log(title)
     
     return (
-    <div className="body-header">{title.title}</div>
+    <div>
+        {/* <Jumbotron fluid>
+            <Container fluid> */}
+                <h1 className="display-3"> NASA Photo of the Day</h1>
+                <p className="BodyHeader">{title.title}</p>
+            {/* </Container>
+        </Jumbotron> */}
+    </div>
     );
 };
 

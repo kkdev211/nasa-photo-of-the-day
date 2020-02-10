@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import BodyHeader from "./BodyHeader";
 import BodyAbout from "./BodyAbout";
+// import { Jumbotron, Container} from "reactstrap;"
 
 const Body = () => {
   const initialState = [];
