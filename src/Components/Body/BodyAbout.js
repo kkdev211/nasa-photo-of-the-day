@@ -1,9 +1,9 @@
 import React, {useState} from "react"
 
-const BodyAbout = props => {
+const BodyAbout = ({about}) => {
     // set up state for the likes
-    const [about, setAbout] =useState(props.about);
-    console.log(props.about)
+    // const [about, setAbout] =useState(props.about);
+    // console.log("body about\n" + props.about)
     
     return (
     <div>
